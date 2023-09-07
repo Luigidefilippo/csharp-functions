@@ -42,3 +42,15 @@ static int Quadrato(int numero)
 {
     return numero * numero;
 }
+
+//SQUARE ARRAY 
+static int[] ElevaArrayAlQuadrato(int[] array)
+{
+    int[] risultato = new int[array.Length];   
+    for (int i = 0;i < array.Length;i++) 
+    {
+        risultato[i] = Quadrato(array[i]);
+    }
+    return risultato;
+}
+
