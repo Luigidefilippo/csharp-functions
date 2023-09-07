@@ -54,3 +54,14 @@ static int[] ElevaArrayAlQuadrato(int[] array)
     return risultato;
 }
 
+//RESULT ARRAY
+
+static int sommaElementiArray(int[] array)
+{
+    int somma = 0;
+    foreach (int numero  in array)
+    {
+        somma += numero;
+    }
+    return somma;
+}
