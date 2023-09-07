@@ -1,18 +1,16 @@
 ﻿Console.WriteLine("Hello, World!");
 
 
+int[] numeri = { 2, 6, 7, 5, 3, 9 };
+Console.WriteLine("Array originale: ");
+StampaArray(numeri);
 
+Console.WriteLine("\nArray elevato al quadrato:");
+int[] arrayAlQuadrato = ElevaArrayAlQuadrato(numeri);
+StampaArray(arrayAlQuadrato);
 
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine("\nSomma di tutti i numeri nell'array originale: " + sommaElementiArray(numeri));
+Console.WriteLine("Somma di tutti i numeri elevati al quadrato: " + sommaElementiArray(arrayAlQuadrato));
 
 
 
