@@ -22,7 +22,7 @@
 
 
 
-//FUNZIONI 
+//FUNCTION
 static void StampaArray(int[] array)
 {
     Console.Write("[");
@@ -35,4 +35,10 @@ static void StampaArray(int[] array)
         }
     }
     Console.WriteLine("]");
+}
+
+//SQUARE OF A NUMBER 
+static int Quadrato(int numero)
+{
+    return numero * numero;
 }
